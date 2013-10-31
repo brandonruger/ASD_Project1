@@ -21,7 +21,34 @@
         </head>
     
         <body>
-        
+            <section data-role="page" id="home" data-theme="a">
+                
+                <section data-role="header" data-position="fixed">
+                    <img src="#" align="left">
+                    <h1>Music Collection</h1>
+                </section>
+                
+                <section data-role="content">
+                    <a href="#addalbum" data-role="button">Add Album</a>
+                    <ul data-role="listview" data-inset="true">
+                        <li data-role="list-divider">Browse by:</li>
+                        <li><a href="#saveditems">Current Music Collection</a></li>
+                        <li><a href="#saveditems">Music Wish List</a></li>
+                    </ul>
+                </section>
+                
+                <footer data-role="footer" data-position="fixed">
+                    <section data-role="navbar">
+                        <ul>
+                            <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+                            <li><a href="#saveditems" data-icon="star">Saved Items</a></li>
+                            <li><a href="#addalbum" data-icon="plus">Add Item</a></li>
+                        </ul>
+                        
+                    </section>
+                </footer>
+                
+            </section>
             
             
             
