@@ -9,8 +9,8 @@ section > p {
 }
 
 header > img {
-    width: 12%;
-    height: inherit;
+    width: 35px;
+    height: 35px;
     position: absolute;
     right: 0px;
 }
