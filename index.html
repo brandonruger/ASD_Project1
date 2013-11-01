@@ -22,6 +22,8 @@
         </head>
     
         <body>
+            
+            <!--Home Page-->
             <section data-role="page" id="home" data-theme="e">
                 
                 <header data-role="header" data-position="fixed">
@@ -51,6 +53,7 @@
                 
             </section>
             
+            <!--Add Album Form Page-->
             <section data-role="page" id="addalbum" data-add-back-btn="true" data-theme="e">
                 
                 <header data-role="header" data-position="fixed">
@@ -69,14 +72,14 @@
                         </section>
                         
                         <section data-role="fieldcontain">
-                            <label for="album">Album: (Required)</label>
+                            <label for="album">Album Title: (Required)</label>
                             <input type="text" name="album" class="required" placeholder="Enter album name." data-clear-btn="true" />
                             <p class="inputHint">Example: Night Visions</p>
                         </section>
                         
                         <section data-role="fieldcontain">
-                            <label for="type">Type:</label>
-                            <select name="type" id="type">
+                            <label for="format">Music Format:</label>
+                            <select name="format" id="format">
                                 <option data-placeholder="true">Select album type.</option>
                                 <option value="cd">CD</option>
                                 <option value="mp3">Mp3</option>
@@ -86,16 +89,16 @@
                         
                         <section data-role="fieldcontain">
                             <fieldset data-role="controlgroup">
-                                <legend>Add to:</legend>
-                                <input type="radio" name="current" id="current" value="current-collection" />
+                                <legend>Add item to which list:</legend>
+                                <input type="radio" name="whichlist" id="current" value="current-collection" />
                                     <label for="current">Current Collection</label>
-                                <input type="radio" name="wishlist" id="wishlist" value="wish-list" />
+                                <input type="radio" name="whichlist" id="wishlist" value="wish-list" />
                                     <label for="wishlist">Wish List</label>
                             </fieldset>                            
                         </section>
                         
                         <section data-role="fieldcontain">
-                            <label for="date">Date:</label>
+                            <label for="date">Release Date:</label>
                             <input type="date" name="date" id="date" />
                             <p class="inputHint">Example: Dec 3, 2013</p>
                         </section>
@@ -115,6 +118,7 @@
                 </section>
             </section>
                 
+                <!--Saved Items Page-->
                 <section data-role="page" id="saveditems" data-add-back-btn="true" data-theme="e">
                     
                     <header data-role="header" data-position="fixed">
