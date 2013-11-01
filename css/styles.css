@@ -1,3 +1,10 @@
 /* Brandon Ruger
  * ASD 1311
  * Project 1 */
+
+.inputHint{
+    margin: 0px;
+    padding: 0px;
+    font: 10pt Helvetica;
+}
+
