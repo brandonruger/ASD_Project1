@@ -8,3 +8,7 @@
     font: 10pt Helvetica;
 }
 
+header > img {
+    width: 15%;
+    height: 15%;
+}
